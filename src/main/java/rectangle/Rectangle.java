@@ -5,18 +5,18 @@ package rectangle;
 
 public class Rectangle {
     private double length;
-    private double shortside;
+    private double width;
 
     public Rectangle(double length, double width) {
         this.length = length;
-        this.shortside = width;
+        this.width = width;
     }
 
     public double area() {
-        return length * shortside;
+        return length * width;
     }
 
     public double perimeter() {
-        return (shortside + length) * 2;
+        return (width + length) * 2;
     }
 }
